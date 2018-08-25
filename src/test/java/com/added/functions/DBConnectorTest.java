@@ -21,5 +21,9 @@ public class DBConnectorTest {
         System.out.println(dbConnector);
         DBConnector.getCon();
         System.out.println("dbConnector. = " + DBConnector.getInstance());
+
+
+        System.out.println("dbConnector2 = " + DBConnector.getInstance());
+
     }
 }
