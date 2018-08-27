@@ -275,7 +275,7 @@ public class CompanyDBDAO implements CompanyDAO {
 	@Override
 	public Collection<Coupon> getCoupons(long compID) {
 		 
-		// We can test it in some simple tests (like shortTest Class). NOT in the testDevelopers Class.
+		// We can test it in some simple tests (like ShortTest Class). NOT in the testDevelopers Class.
 		
 		Set<Coupon> coupons = new HashSet<>();
 		CouponDBDAO  couponDB = new CouponDBDAO();
